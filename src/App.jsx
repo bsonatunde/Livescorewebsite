@@ -62,6 +62,21 @@ function ha(a,b,c){if(b)a:{var d=a.split(".");a=d.length===1;var e=d[0],f;!a&&e 
 
   return (
     <div style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%)', padding: '0', margin: '0', fontFamily: 'Segoe UI, Arial, sans-serif' }}>
+      {/* Responsive CSS for mobile view */}
+      <style>{`
+        @media (max-width: 700px) {
+          header { padding: 24px 0 10px 0 !important; }
+          main { padding: 18px 4px !important; }
+          .footer-flex { flex-direction: column !important; align-items: flex-start !important; gap: 18px !important; }
+          .footer-left, .footer-right { align-items: flex-start !important; text-align: left !important; font-size: 1rem !important; }
+          .footer-left span, .footer-right span { font-size: 1rem !important; }
+        }
+        @media (max-width: 500px) {
+          header h1 { font-size: 1.3rem !important; }
+          button, select { font-size: 0.95rem !important; padding: 8px 12px !important; }
+          .footer-left span, .footer-right span { font-size: 0.95rem !important; }
+        }
+      `}</style>
       <header style={{ textAlign: 'center', padding: '32px 0 16px 0', background: 'rgba(255,255,255,0.85)', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
         <h1 style={{ fontSize: '2.2rem', fontWeight: 700, margin: 0, color: '#1a237e', letterSpacing: '1px' }}>Live Football Scores</h1>
         <button onClick={fetchFootballScores} style={{ marginTop: '18px', padding: '10px 28px', fontSize: '1.1rem', fontWeight: 600, background: 'linear-gradient(90deg,#1976d2,#64b5f6)', color: '#fff', border: 'none', borderRadius: '24px', boxShadow: '0 2px 8px rgba(25,118,210,0.08)', cursor: 'pointer', transition: 'background 0.2s' }}>Refresh Scores</button>
@@ -141,14 +156,14 @@ function ha(a,b,c){if(b)a:{var d=a.split(".");a=d.length===1;var e=d[0],f;!a&&e 
         width: '100%',
         zIndex: 100
       }}>
-        <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
+        <div className="footer-flex" style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
+          <div className="footer-left" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
             <span style={{ color: '#90caf9', fontSize: '1.13rem', fontWeight: 700 }}>Onatunde Samuel (Bsonat)</span>
             <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'none', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'none' }}>08069311709</a></span>
             <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'none' }}>onatunde,samuel@gmail.com</a></span>
 
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
+          <div className="footer-right" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
             <span style={{ color: '#90caf9', fontWeight: 600 }}>Bsonat Football Dashboard</span>
             <span style={{ color: '#bbdefb' }}>Powered by API-Football</span>
             <span style={{ color: '#90caf9', fontSize: '1.01rem', fontWeight: 400 }}>2025 &copy; All rights reserved.</span>
@@ -200,6 +215,21 @@ function LineupsPage() {
 
   return (
     <div style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%)', padding: '0', margin: '0', fontFamily: 'Segoe UI, Arial, sans-serif' }}>
+      {/* Responsive CSS for mobile view */}
+      <style>{`
+        @media (max-width: 700px) {
+          header { padding: 24px 0 10px 0 !important; }
+          main { padding: 18px 4px !important; }
+          .footer-flex { flex-direction: column !important; align-items: flex-start !important; gap: 18px !important; }
+          .footer-left, .footer-right { align-items: flex-start !important; text-align: left !important; font-size: 1rem !important; }
+          .footer-left span, .footer-right span { font-size: 1rem !important; }
+        }
+        @media (max-width: 500px) {
+          header h1 { font-size: 1.3rem !important; }
+          button, select { font-size: 0.95rem !important; padding: 8px 12px !important; }
+          .footer-left span, .footer-right span { font-size: 0.95rem !important; }
+        }
+      `}</style>
       <header style={{ textAlign: 'center', padding: '32px 0 16px 0', background: 'rgba(255,255,255,0.85)', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
         <h1 style={{ fontSize: '2.2rem', fontWeight: 700, margin: 0, color: '#1a237e', letterSpacing: '1px' }}>Lineups</h1>
         <button onClick={() => navigate('/')} style={{ marginTop: '18px', padding: '10px 28px', fontSize: '1.1rem', fontWeight: 600, background: 'linear-gradient(90deg,#1976d2,#64b5f6)', color: '#fff', border: 'none', borderRadius: '24px', boxShadow: '0 2px 8px rgba(25,118,210,0.08)', cursor: 'pointer', transition: 'background 0.2s' }}>Back to Scores</button>
@@ -261,14 +291,14 @@ function LineupsPage() {
         width: '100%',
         zIndex: 100
       }}>
-        <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
+        <div className="footer-flex" style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
+          <div className="footer-left" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
             <span style={{ color: '#90caf9', fontSize: '1.13rem', fontWeight: 700 }}>Onatunde Samuel (Bsonat)</span>
             <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'none', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'none' }}>08069311709</a></span>
             <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'none' }}>onatunde,samuel@gmail.com</a></span>
 
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
+          <div className="footer-right" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
             <span style={{ color: '#90caf9', fontWeight: 600 }}>Bsonat Football Dashboard</span>
             <span style={{ color: '#bbdefb' }}>Powered by API-Football</span>
             <span style={{ color: '#90caf9', fontSize: '1.01rem', fontWeight: 400 }}>2025 &copy; All rights reserved.</span>
