@@ -144,8 +144,9 @@ function ha(a,b,c){if(b)a:{var d=a.split(".");a=d.length===1;var e=d[0],f;!a&&e 
         <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
             <span style={{ color: '#90caf9', fontSize: '1.13rem', fontWeight: 700 }}>Onatunde Samuel (Bsonat)</span>
-            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'underline', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'underline' }}>08069311709</a></span>
-            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'underline' }}>onatunde,samuel@gmail.com</a></span>
+            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'none', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'none' }}>08069311709</a></span>
+            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'none' }}>onatunde,samuel@gmail.com</a></span>
+
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
             <span style={{ color: '#90caf9', fontWeight: 600 }}>Bsonat Football Dashboard</span>
@@ -263,8 +264,9 @@ function LineupsPage() {
         <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
             <span style={{ color: '#90caf9', fontSize: '1.13rem', fontWeight: 700 }}>Onatunde Samuel (Bsonat)</span>
-            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'underline', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'underline' }}>08069311709</a></span>
-            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'underline' }}>onatunde,samuel@gmail.com</a></span>
+            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Contact: <a href="tel:08138873454" style={{ color: '#fff', textDecoration: 'none', marginRight: '8px' }}>08138873454</a> <a href="tel:08069311709" style={{ color: '#fff', textDecoration: 'none' }}>08069311709</a></span>
+            <span style={{ color: '#bbdefb', fontWeight: 500 }}>Email: <a href="mailto:onatunde,samuel@gmail.com" style={{ color: '#fff', textDecoration: 'none' }}>onatunde,samuel@gmail.com</a></span>
+
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', fontSize: '1.05rem', fontWeight: 500 }}>
             <span style={{ color: '#90caf9', fontWeight: 600 }}>Bsonat Football Dashboard</span>
