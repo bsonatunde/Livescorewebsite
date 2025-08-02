@@ -149,12 +149,7 @@ function ha(a,b,c){if(b)a:{var d=a.split(".");a=d.length===1;var e=d[0],f;!a&&e 
         fontFamily: 'Segoe UI, Arial, sans-serif',
         boxShadow: '0 -2px 12px rgba(25,118,210,0.10)',
         borderTop: '1px solid #e3eafc',
-        letterSpacing: '0.5px',
-        position: 'fixed',
-        left: 0,
-        bottom: 0,
-        width: '100%',
-        zIndex: 100
+        letterSpacing: '0.5px'
       }}>
         <div className="footer-flex" style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
           <div className="footer-left" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
@@ -284,12 +279,7 @@ function LineupsPage() {
         fontFamily: 'Segoe UI, Arial, sans-serif',
         boxShadow: '0 -2px 12px rgba(25,118,210,0.10)',
         borderTop: '1px solid #e3eafc',
-        letterSpacing: '0.5px',
-        position: 'fixed',
-        left: 0,
-        bottom: 0,
-        width: '100%',
-        zIndex: 100
+        letterSpacing: '0.5px'
       }}>
         <div className="footer-flex" style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
           <div className="footer-left" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '6px', fontSize: '1.09rem', fontWeight: 600 }}>
