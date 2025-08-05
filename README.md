@@ -1,14 +1,43 @@
-# React + Vite
+# ⚽ Bsonat Football Dashboard
 
-https://github.com/bsonatunde/Livescorewebsite
+A modern, responsive web application providing real-time football scores, team lineups, and league filtering capabilities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo**: https://github.com/bsonatunde/Livescorewebsite
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Visit `http://localhost:5174` to view the application.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Live Football Scores**: Real-time match data from around the world
+- **Team Lineups**: Detailed player information and formations
+- **League Filtering**: Filter by popular leagues (Premier League, La Liga, etc.)
+- **Responsive Design**: Optimized for all devices
+- **Professional UI**: Modern glass-morphism design
+
+## 🛠️ Built With
+
+- React 18 + Vite
+- API-Football Integration
+- Modern CSS3 with Gradients
+- Responsive Design Principles
+
+## 👨‍💻 Developer
+
+**Onatunde Samuel (Bsonat)**
+- Phone: 08138873454, 08069311709
+- Email: onatunde,samuel@gmail.com
+
+## 📄 Documentation
+
+For detailed documentation, see [PROJECT_WRITEUP.md](./PROJECT_WRITEUP.md)
+
+---
+
+© 2025 Bsonat Football Dashboard - All rights reserved.
